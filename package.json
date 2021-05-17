@@ -1,0 +1,23 @@
+{
+  "name": "edikoswara",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview"
+  },
+  "dependencies": {
+    "autoprefixer": "^10.2.5",
+    "feather-icons": "^4.28.0",
+    "postcss": "^8.2.15",
+    "tailwindcss": "^2.1.2",
+    "vue": "^3.0.5",
+    "vue-feather": "^2.0.0-beta.1",
+    "vue-router": "4"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^1.2.2",
+    "@vue/compiler-sfc": "^3.0.5",
+    "vite": "^2.3.3"
+  }
+}
