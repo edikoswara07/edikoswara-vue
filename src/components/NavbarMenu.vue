@@ -1,8 +1,12 @@
 <template>
 	<ul
-		class="flex flex-col md:flex-row text-sm font-medium my-4 md:my-0 space-y-4 md:space-y-0 space-x-0 md:space-x-4 text-blueGray-500"
+		class="flex flex-col text-sm font-medium md:flex-row my-4 md:my-0 md:space-y-0 space-x-0 text-blueGray-500"
 	>
-		<li v-for="link in links" :key="link">
+		<li
+			v-for="link in links"
+			:key="link"
+			class="py-3 px-4 hover:bg-blueGray-300 rounded-md"
+		>
 			<router-link :to="link.path">{{ link.name }}</router-link>
 		</li>
 	</ul>
@@ -45,4 +49,5 @@ export default {
 };
 </script>
 
+<style></style>
 <style></style>
