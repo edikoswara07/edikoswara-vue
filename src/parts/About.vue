@@ -1,6 +1,6 @@
 <template>
 <Container>
-	<div class="flex flex-col items-center justify-between my-24 md:flex-row space-x-0 md:space-x-8 space-y-4 md:space-y-0">
+	<div class="flex flex-col-reverse items-center justify-between my-16 md:flex-row space-x-0 md:space-x-8 space-y-8 md:space-y-0">
 	<div class="w-full md:w-6/12">
 		<div>
 			<img :src="datas.image" alt="aboutImage" class="inset-0 object-cover object-center w-full h-96 rounded-xl">
