@@ -1,6 +1,6 @@
 <template>
 	<Container>
-		<div class="flex flex-col items-center justify-between py-12 md:flex-row space-y-6 md:space-y-0 space-x-0 md:space-x-12">
+		<div class="flex flex-col items-center justify-between my-12 md:flex-row space-y-6 md:space-y-0 space-x-0 md:space-x-12">
 			<div class="w-full md:w-6/12">
 				<h1 class="text-5xl font-semibold text-blueGray-900">
 					Howdy
