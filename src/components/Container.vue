@@ -1,5 +1,5 @@
 <template>
-	<div class="container mx-auto px-4 sm:px-6 md:px-8 lg:px-12 xl:px-14">
+	<div class="container px-4 mx-auto sm:px-6 md:px-8 lg:px-12 xl:px-20">
 		<slot></slot>
 	</div>
 </template>

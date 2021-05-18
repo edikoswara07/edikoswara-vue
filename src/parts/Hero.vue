@@ -1,12 +1,12 @@
 <template>
 	<Container>
-		<div class="flex flex-col items-center justify-between my-12 md:flex-row space-x-0 md:space-x-12">
+		<div class="flex flex-col items-center justify-between my-12 md:flex-row spa space-y-6 md:space-y-0 space-x-0 md:space-x-12">
 			<div class="w-full md:w-6/12">
 				<h1 class="text-5xl font-semibold text-blueGray-900">
 					Howdy
 				</h1>
 				<p
-					class="mt-6 text-base font-medium leading-relaxed text-blueGray-700"
+					class="mt-6 text-base font-medium leading-relaxed text-blueGray-700 md:max-w-sm"
 				>
 					Aku <span class="font-semibold">Edi Koswara</span>, web
 					developer. seorang kreatif untuk membangun website impian
@@ -60,11 +60,6 @@ export default {
 	components: {
 		Container,
 	},
-	computed: {
-		getImage() {
-			return this.imageHero
-		}
-	}
 };
 </script>
 
