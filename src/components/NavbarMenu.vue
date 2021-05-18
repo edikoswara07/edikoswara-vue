@@ -1,11 +1,11 @@
 <template>
 	<ul
-		class="flex flex-col text-sm font-medium md:flex-row my-4 md:my-0 md:space-y-0 space-x-0 text-blueGray-500"
+		class="flex flex-col my-4 text-sm font-medium md:flex-row md:my-0 md:space-y-0 space-x-0 text-blueGray-500"
 	>
 		<li
 			v-for="link in links"
 			:key="link"
-			class="py-3 px-4 hover:bg-blueGray-300 rounded-md"
+			class="px-4 py-3 hover:bg-blueGray-300 rounded-md"
 		>
 			<router-link :to="link.path">{{ link.name }}</router-link>
 		</li>

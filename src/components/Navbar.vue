@@ -28,7 +28,7 @@
 			</div>
 
 			<div
-				class="block md:hidden -mt-2"
+				class="block -mt-2 md:hidden"
 				:class="[isActive ? 'hidden' : 'block']"
 			>
 				<NavbarMenu></NavbarMenu>

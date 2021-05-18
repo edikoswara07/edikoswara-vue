@@ -7,16 +7,25 @@ const routes = [
 		path: "/",
 		name: "Home",
 		component: Home,
+		meta: {
+			title: "Home",
+		},
 	},
 	{
 		path: "/about",
 		name: "About",
 		component: About,
+		meta: {
+			title: "About",
+		},
 	},
 	{
 		path: "/:pathMatch(.*)*",
 		name: "Page Not Found",
 		component: NotFound,
+		meta: {
+			title: "Page not found",
+		},
 	},
 ];
 
