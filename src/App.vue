@@ -7,8 +7,12 @@
 <script>
 import Layout from "./components/Layout.vue";
 export default {
-	defaultTitle: "Edi Koswara",
 	name: "App",
+	data() {
+		return {
+			defaultTitle: "Edi Koswara",
+		};
+	},
 	components: {
 		Layout,
 	},
@@ -16,7 +20,7 @@ export default {
 		$route: {
 			immediate: true,
 			handler(to) {
-				document.title = to.meta.title || this.defaultTitle;
+				document.title = `${to.meta.title} - ${this.defaultTitle}`;
 			},
 		},
 	},
