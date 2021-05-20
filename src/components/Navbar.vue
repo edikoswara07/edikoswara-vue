@@ -1,5 +1,7 @@
 <template>
-	<div class="border-b border-blueGray-300">
+	<div
+		class="border-b border-blueGray-300 bg-blueGray-100 fixed w-full top-0 z-50"
+	>
 		<Container>
 			<div class="flex items-center justify-between py-4">
 				<span class="text-xl font-semibold text-blueGray-900">
