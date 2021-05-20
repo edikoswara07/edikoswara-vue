@@ -21,7 +21,7 @@
 					v-for="data in blogDatas"
 					:key="data.id"
 				>
-					<div class="w-full h-48 md:h-72 relative">
+					<div class="w-full h-48 lg:h-60 relative">
 						<div
 							class="absolute top-2 right-2 py-2 text-sm px-6 font-semibold bg-blueGray-900 text-blueGray-100 rounded-lg"
 						>
@@ -42,12 +42,16 @@
 						<p
 							class="text-sm text-blueGray-700 font-medium leading-relaxed"
 						>
-							{{ data.content.substring(0, 150) }}...
+							{{ data.content.substring(0, 120) }}...
+							<i>baca selengkapnya</i>
 						</p>
 					</div>
 					<div class="flex justify-between items-center mt-10">
 						<div class="inline-flex items-center">
 							<div class="relative w-8 h-8">
+								<div
+									class="absolute w-8 h-8 rounded-full ring-1 ring ring-offset-1"
+								></div>
 								<img
 									:src="data.imageAuthor"
 									alt="blog"
